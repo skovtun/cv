@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background: #f1f1f1;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.avatar {
+  border-radius: 50%;
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+
+.sk {
+  margin: 3px 0 0 75px;
+}
