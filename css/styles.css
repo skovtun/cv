@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background: #f1f1f1;
+  font-family: Arial;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.avatar {
+  border-radius: 6px;
+  float: left;
+  height: 60px;
+  width: 60px;
+}
+
+.sk {
+  margin-left: 75px;
+}
+
+.sk_name {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+}
+
+/* Dice */
+.player {
+  float: left;
+  padding: 10px;
+}
+.dice {
+  width: 60px;
+  height: 60px;
+  border-radius: 6px;
+  background-color: red;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.blue {
+  background-color: blue;
+}
+.d_dot {
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 6px;
+  float: left;
+}
+.invisible {
+  visibility: hidden;
+}
